@@ -1,6 +1,8 @@
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
+import requests as r
+import streamlit as st
 
 def search(query, api_key, cse_id, start_index, **kwargs):
     url = "https://www.googleapis.com/customsearch/v1"
